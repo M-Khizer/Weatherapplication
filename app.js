@@ -1,23 +1,3 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCLyjuo78v-0ABspBd-DXkkplH00Y-8uUo",
-  authDomain: "weatherapp-29993.firebaseapp.com",
-  projectId: "weatherapp-29993",
-  storageBucket: "weatherapp-29993.appspot.com",
-  messagingSenderId: "161980249978",
-  appId: "1:161980249978:web:0555c42b2be22934da88c3",
-  measurementId: "G-30ZXHQ2B1R"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
 const API_KEY = '529b251bd9fda19727269be9c0475594';
 
 const cityName = document.getElementById('city-name')
